@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config build/webpack.pro.js",
     "start": "webpack-dev-server --config build/webpack.dev.js",
-    "server": "nodemon server/index.js",
+    "server": "nodemon src/entry-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "express-react-views": "^0.11.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router": "^5.2.0",
