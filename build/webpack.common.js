@@ -3,7 +3,7 @@ let HtmlWebPackPlugin = require('html-webpack-plugin');
 let webpack = require('webpack'); //增加导入webpack
 
 module.exports = {
-  entry: './src/entry-client.js', //在entry字段中添加触发文件配置
+  entry: './src/index.js', //在entry字段中添加触发文件配置
   resolve: {
     extensions: ['.js', '.json', '.jsx'],
   },
